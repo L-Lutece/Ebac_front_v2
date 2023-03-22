@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.section-one {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 129, 129);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.svg-container{
+    position: relative;
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(130, 112, 112);
+    overflow: hidden;
+}
+.svg-area1 {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url(./assets/R.jpg);
+}
+.svg-area2 {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url(./assets/OIP.jpg);
+}
+.svg-area3 {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url(./assets/LOP.jpg);
+}
+.svg-area4 {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url(./assets/suco.jpg);
+}
+.svg-area5 {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url(./assets/pão.jpg);
+}
+.svg-area6 {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url(./assets/boloinho.jpg);
+}
+.svg-text{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.svg-text p{
+    padding: 3px;
+    color: white;
+    font-size: large;
+}
+
+
+
+.section-two {
+    background-color: rgb(147, 94, 94);
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
